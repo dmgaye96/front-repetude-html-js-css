@@ -2,16 +2,155 @@
 
 h1,h2,h3,h4,h5,h6,p,a {
     font-family: 'Montserrat', sans-serif !important;
+    line-height: 1.5;
 }
 .navbar-repetude{
     box-shadow: #212529 -3px 3px 8px;
     height: 120px;
+    z-index: 99999999999999;
 a{
-    text-decoration: none !important;
     text-decoration: none !important;
     font-size: 1.5em;
     font-weight: 800;
     color:#AA34E0;
     margin: 0 11px;
 }
+}
+
+main{
+    .band-silder{
+        background-color: #AA34E0;
+        height: 100vh;
+        width: 100%;
+    }
+    .band-silder{
+        display: flex;
+        align-content: flex-end;
+        flex-wrap: nowrap;
+        align-items: center;
+        .reputu-logo-section{
+            h1{
+                font-size: 8em;
+                color: white;
+                font-weight: 900;
+                margin-left: 3%;
+            }
+        }
+
+    }
+
+
+    .titre-section-descp{
+        font-size: 1.5em;
+        font-weight: 800;
+        color:#AA34E0;
+        
+    }
+    .ulistration-home{
+        width: 96%;
+    }
+    .description-section {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+
+        
+
+        .texte-description{
+            color:#707070;
+            text-align: justify;
+        }
+        .image-descrition-home {
+            width: 45%;
+        }
+
+        .section-left-description {
+            width: 40%;
+            margin-left: 3%;
+        }
+
+        button.buton-repetude {
+            border: none;
+            border-radius: 5px;
+            background: white;
+            box-shadow: #989898 1px 2px 5px;
+            color: #A635E0;
+            line-height: 1.8;
+            font-weight: bold;
+        }
+
+        
+    }
+    .section-description2{
+        display: flex;
+        flex-direction: row-reverse;
+        background: #F5F5F5;
+        padding: 100px 0px;
+        justify-content: center;
+    }
+
+    .partenaires-section {
+        margin: 100px 0px;
+       justify-content: space-around;
+
+       .img-partenaires{
+           display: flex;
+           justify-content: center;
+       }
+       h1{
+           text-align: center;
+       }
+    }
+   
+
+}
+.section-footer{
+    height: 100px;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .texte-footer-repetude{
+        text-decoration: none;
+        font-weight:400;
+        color: #A635E0;
+        font-size: 1.6em;
+    }
+
+    .logo-repetitude-footer{
+        margin-left: 3%;
+        height: 100px;
+    }
+    .social-media-footer {
+        margin: 3%;
+    }
+    .icone-social-media-footer{
+        margin: 0px 5px;
+    }
+
+}
+.section-formation-1{
+    background:#F5F5F5;
+    height: 300px;
+    .titre-developpement{
+        text-align: center;
+       padding: 50px;
+    
+    }
+}
+
+
+/* GRID */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    div {
+        background-color: rgb(252, 149, 149);
+        border: solid 1px rgb(0, 255, 85);
+        border-radius: 10px;
+        padding:20px;
+        margin:20px 20px ;
+    }
 }

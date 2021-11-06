@@ -1,20 +1,188 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap");
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Montserrat', sans-serif !important;
+  line-height: 1.5;
 }
 
 .navbar-repetude {
   -webkit-box-shadow: #212529 -3px 3px 8px;
           box-shadow: #212529 -3px 3px 8px;
   height: 120px;
+  z-index: 99999999999999;
 }
 
 .navbar-repetude a {
-  text-decoration: none !important;
   text-decoration: none !important;
   font-size: 1.5em;
   font-weight: 800;
   color: #AA34E0;
   margin: 0 11px;
+}
+
+main .band-silder {
+  background-color: #AA34E0;
+  height: 100vh;
+  width: 100%;
+}
+
+main .band-silder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .band-silder .reputu-logo-section h1 {
+  font-size: 8em;
+  color: white;
+  font-weight: 900;
+  margin-left: 3%;
+}
+
+main .titre-section-descp {
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #AA34E0;
+}
+
+main .ulistration-home {
+  width: 96%;
+}
+
+main .description-section {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .description-section .texte-description {
+  color: #707070;
+  text-align: justify;
+}
+
+main .description-section .image-descrition-home {
+  width: 45%;
+}
+
+main .description-section .section-left-description {
+  width: 40%;
+  margin-left: 3%;
+}
+
+main .description-section button.buton-repetude {
+  border: none;
+  border-radius: 5px;
+  background: white;
+  -webkit-box-shadow: #989898 1px 2px 5px;
+          box-shadow: #989898 1px 2px 5px;
+  color: #A635E0;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+main .section-description2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  background: #F5F5F5;
+  padding: 100px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .partenaires-section {
+  margin: 100px 0px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .partenaires-section .img-partenaires {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .partenaires-section h1 {
+  text-align: center;
+}
+
+.section-footer {
+  height: 100px;
+  background: #F5F5F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-footer .texte-footer-repetude {
+  text-decoration: none;
+  font-weight: 400;
+  color: #A635E0;
+  font-size: 1.6em;
+}
+
+.section-footer .logo-repetitude-footer {
+  margin-left: 3%;
+  height: 100px;
+}
+
+.section-footer .social-media-footer {
+  margin: 3%;
+}
+
+.section-footer .icone-social-media-footer {
+  margin: 0px 5px;
+}
+
+.section-formation-1 {
+  background: #F5F5F5;
+  height: 300px;
+}
+
+.section-formation-1 .titre-developpement {
+  text-align: center;
+  padding: 50px;
+}
+
+/* GRID */
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.grid div {
+  background-color: #fc9595;
+  border: solid 1px #00ff55;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 20px;
 }
 /*# sourceMappingURL=style.css.map */
